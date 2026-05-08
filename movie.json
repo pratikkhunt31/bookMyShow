@@ -1,0 +1,240 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Dhurandhar The Revenge",
+            "language": [
+                "Hindi",
+                "Telugu",
+                "Malayalam",
+                "Tamil",
+                "Kannada"
+            ],
+            "type": [
+                "Action",
+                "Thriller"
+            ],
+            "duration": "3h 49m",
+            "ageRating": "A",
+            "format": [
+                "2D",
+                "Dolby Cinema 2D",
+                "IMAX 2D"
+            ],
+            "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS40LzEwICA1NjZLKyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00478890-gseacbrsej-portrait.jpg",
+            "desc": "Dhurandhar The Revenge introduces Jaskirat Singh Rangi, tracing the chain of events that compel him to become Hamza Ali Mazari, and follows his rise as he operates deep inside Pakistan.",
+            "rating": 9.4,
+            "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/dhurandhar-the-revenge-et00478890-1772893614.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Bhooth Bangla",
+            "language": [
+                "Hindi"
+            ],
+            "type": [
+                "Comedy",
+                "Horror",
+                "Thriller"
+            ],
+            "duration": "2h 45m",
+            "ageRating": "UA16+",
+            "format": [
+                "2D"
+            ],
+            "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MTc3SysgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00411383-ktyhcmthpv-portrait.jpg",
+            "desc": "Arjun Acharya, a financially troubled man in his late 30s, unexpectedly inherits his grandfather's massive ancestral palace, Acharya Niwas, in a remote North Indian town called Mangalpur. Seeing an opportunity to fix his life, Arjun plans to host his sister Meera's long-delayed wedding at the palace.",
+            "rating": 9,
+            "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mo…g/xxlarge/bhooth-bangla-et00411383-1768196983.jpg"
+        },  
+        {
+            "id": 3,
+            "title": "Lee Cronin's The Mummy",
+            "language": [
+                "Hindi",
+                "English",
+                "Tamil",
+                "Telugu"
+            ],
+            "type": [
+                "Horror",
+                "Psychological",
+                "Thriller"
+            ],
+            "duration": "2h 15m",
+            "ageRating": "A",
+            "format": [
+                "2D",
+                "Dolby Cinema 2D",
+                "IMAX 2D",
+                "MX4D",
+                "4DX"
+            ],
+            "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NDcuNksrIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00482084-nauzdfvlcm-portrait.jpg",
+            "desc": "The young daughter of a journalist disappears into the desert without a trace, eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
+            "rating": 8.9,
+            "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mo…/lee-cronin-s-the-mummy-et00482084-1775731029.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Dacoit",
+            "language": [
+                "Hindi",
+                "Telugu"
+            ],
+            "type": [
+                "Action",
+                "Drama",
+                "Romantic",
+                "Thriller"
+            ],
+            "duration": "2h 15m",
+            "ageRating": "UA13+",
+            "format": [
+                "2D",
+                "Dolby Cinema 2D"
+            ],
+            "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NDcuNksrIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00482084-nauzdfvlcm-portrait.jpg",
+            "desc": "An explosion of guns and roses, betrayal and trust, and, above all, love and loss.",
+            "rating": 9,
+            "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mo…/listing/xxlarge/dacoit-et00380715-1775804764.jpg"
+        },
+        {
+            "id": 5,
+            "title": "The Super Mario Galaxy Movie",
+            "language": [
+                "Hindi",
+                "English",
+                "Tamil"
+            ],
+            "type": [
+                "Adventure",
+                "Animation",
+                "Comedy",
+                "Family",
+                "Fantasy"
+            ],
+            "duration": "1h 38m",
+            "ageRating": "UA7+",
+            "format": [
+                "2D",
+                "Dolby Cinema 2D",
+                "ICE 3D",
+                "IMAX 3D",
+                "4DX",
+                "MX4D"
+            ],
+            "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC42LzEwICAyLjlLKyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00465655-vffexhbjnc-portrait.jpg",
+            "desc": "Mario, Luigi, and Princess Peach journey across galaxies to rescue Rosalina after Bowser Jr. kidnaps her to revive Bowser. As they face chaotic, action-packed challenges in space, the story blends family themes with high-energy adventure, though it leans more on spectacle than a tightly focused plot.",
+            "rating": 8.6,
+            "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mo…uper-mario-galaxy-movie-et00465655-1773121810.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Project Hail Mary",
+            "language": [
+                "Hindi",
+                "English",
+                "Tamil",
+                "Telugu"
+            ],
+            "type": [
+                "Adventure",
+                "Drama",
+                "Sci-Fi"
+            ],
+            "duration": "2h 36m",
+            "ageRating": "UA13+",
+            "format": [
+                "2D",
+                "Dolby Cinema 2D",
+                "IMAX 2D",
+                "4DX",
+                "MX4D"
+            ],
+            "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS8xMCAgNTguNEsrIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00451760-bqrmlwxxqs-portrait.jpg",
+            "desc": "Science teacher Ryland Grace wakes up alone on a spaceship, light-years from Earth. As his memory returns, he uncovers a mission to stop a mysterious substance killing the Sun and save Earth. An unexpected friendship may be the key.",
+            "rating": 9,
+            "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mo…large/project-hail-mary-et00451760-1751358286.jpg"
+        },
+        {
+            "id": 7,
+            "title": "The Kerala Story 2: Goes Beyond",
+            "language": [
+                "Hindi"
+            ],
+            "type": [
+                "Social",
+                "Drama"
+            ],
+            "duration": "2h 11m",
+            "ageRating": "UA16+",
+            "format": [
+                "2D"
+            ],
+            "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008/et00484171-pnlwfbvpnj-portrait.jpg",
+            "desc": "Across three Indian states, three young women defy family and tradition for love, only to slip into unseen cages of control and silence. What begins as romance and rebellion mutates into manipulation and loss of freedom, until the women strike back, turning captivity into a battlefield for survival.",
+            "rating": 9.2,
+            "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mo…ala-story-2-goes-beyond-et00484171-1770209319.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Laagni",
+            "language": [
+                "Gujarati"
+            ],
+            "type": [
+                "Family",
+                "Drama"
+            ],
+            "duration": "2h 25m",
+            "ageRating": "U",
+            "format": [
+                "2D"
+            ],
+            "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008/et00493852-ewftjslecr-portrait.jpg",
+            "desc": "A happy couple dreams of having a daughter, but the sudden loss of the wife shatters their lives. The father, left alone, spends years searching for his child after their separation. When he finally finds his daughter, their reunion sets them on an emotional journey of rebuilding a lost bond and facing life's hardships together.",
+            "rating": 9,
+            "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mo…/listing/xxlarge/laagni-et00493852-1775120062.jpg"
+        },
+        {
+            "id": 9,
+            "title": "The Great Gujarati Matrimony",
+            "language": [
+                "Gujarati"
+            ],
+            "type": [
+                "Romantic",
+                "Drama"
+            ],
+            "duration": "2h 24m",
+            "ageRating": "UA",
+            "format": [
+                "2D"
+            ],
+            "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny8xMCAgNDIwKyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@re-release-tag.png,lx-N6,t-false,lfo-top_right,w-180,l-end/et00413747-ryfwppqclc-portrait.jpg",
+            "desc": "The Great Gujarati Matrimony is a romantic drama that follows the intertwined lives of Iti, an aspiring actress, Raaghav, a lively matrimony agency owner, and Ved, an investment banker from Canada. As they navigate love, cultural clashes, and self-discovery, their journey explores the complexities of relationships and personal growth.",
+            "rating": 7,
+            "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mo…reat-gujarati-matrimony-et00413747-1730095198.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Kuka is Money Cash",
+            "language": [
+                "Gujarati"
+            ],
+            "type": [
+                "Drama"
+            ],
+            "duration": "2h 13m",
+            "ageRating": "UA16+",
+            "format": [
+                "2D"
+            ],
+            "img": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTUrIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00494548-dmqqscjvjz-portrait.jpg",
+            "desc": "A middle-class boy facing the hardships of life discovers the truth and ways to get successful and rich in the modern-day lifestyle.",
+            "rating": 8,
+            "banner": "https://assets-in.bmscdn.com/iedb/movies/images/mo…arge/kuka-is-money-cash-et00494548-1775620168.jpg"
+        }
+    ]
+}

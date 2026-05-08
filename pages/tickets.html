@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <style>
+      body {
+        padding: 0;
+      }
+      
+      .ticket-page {
+        width: min(1000px, 92%);
+        margin: 40px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+      }
+
+      .ticket-card {
+        background: white;
+        border-radius: 18px;
+        padding: 24px;
+        position: relative;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      }
+
+      .movie-name {
+        margin-bottom: 20px;
+        color: #eb4e62;
+      }
+
+      .ticket-info p {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 14px;
+      }
+
+      .ticket-info span {
+        color: #777;
+      }
+
+      .delete-ticket {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        border: none;
+        background: #ffe5e8;
+        color: #eb4e62;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .empty-ticket {
+        text-align: center;
+        font-size: 20px;
+        padding: 60px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ticket-page"></div>
+
+    <!-- <script>
+      function cancelBooking(index) {
+        console.log(index);
+      }
+    </script> -->
+    <script src="/script.js"></script>
+  </body>
+</html>

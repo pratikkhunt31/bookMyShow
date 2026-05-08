@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.container {
+  /* background: rgb(219, 219, 223); */
+  margin: 0 auto;
+  max-width: 82vw;
+  /* max-width: 1024px; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see-all {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(220, 53, 88);
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 0 0 30px;
+  position: relative;
+}
+
+.card {
+  margin: 0 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  margin: 0 0 8px;
+}
+
+.info {
+  margin: 4px auto 0;
+}
+
+.info h3 {
+  font-size: 18px;
+  margin: 0 0 4px;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info span {
+  font-size: 16px;
+  word-break: break-word;
+  color: rgb(102, 102, 102);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  z-index: 9999;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(34, 34, 34, 0.8);
+  color: #fff;
+  font-size: 20px;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  border: none;
+}
+
+.slick-next {
+  right: -20px;
+}
+
+.slick-prev {
+  left: -20px;
+}
+
+
+/* Movie.html */
+
+.movie-container {
+  background-color: #1a1a1a;
+}
+
+.banner {
+  background:
+    linear-gradient(
+      90deg,
+      #1a1a1a 24.97%,
+      #1a1a1a 38.3%,
+      rgba(26, 26, 26, 0.0409746) 97.47%,
+      #1a1a1a 100%
+    ),
+    url("https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/dhurandhar-the-revenge-et00478890-1772893614.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: rgb(26, 26, 26);
+  width: 92%;
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  margin: 10px auto;
+  padding: 32px 0;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  /* background-color: aqua;
+  opacity: 0.5; */
+  width: 92%;
+  min-height: 480px;
+}
+
+.content img {
+  width: auto;
+  height: 400px;
+  max-width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.details {
+  color: white;
+  flex-grow: 1;
+  padding-left: 32px;
+  max-width: 520px;
+}
+
+.details h1 {
+    font-size: 34px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lang-cinema {
+  display: flex;
+  margin-top: 20px;
+}
+
+.cinema,
+.lang {
+  background-color: rgba(97, 97, 97, 0.898);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 200;
+}
+
+.cinema {
+    margin-right: 8px;
+}
+
+.details button {
+  margin-top: 32px;
+  width: 100%;
+  max-width: 220px;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  padding: 14px 8px;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #dc354b;
+  background-color: #dc354b;
+  cursor: pointer;
+}
+
+/* Theaster.html */
+
+@media (max-width: 769px) {
+  .container {
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 92vw;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}

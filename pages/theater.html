@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Dhurandhar The Revenge Movie Showtime s in Surat & Online Ticket Booking
+    </title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <style>
+      body {
+        margin: 0px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      table {
+        margin: 10px auto;
+        border: 1px solid;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      table td {
+        padding: 12px 16px;
+        border: none;
+      }
+
+      table input[type="text"] {
+        width: 100%;
+        padding: 10px 12px;
+        font-size: 14px;
+        border: 2px solid #ddd;
+        border-radius: 6px;
+      }
+
+      table input[type="text"]:focus {
+        outline: none;
+        border-color: #1ea83c;
+        box-shadow: 0 0 8px rgba(30, 168, 60, 0.2);
+      }
+
+      table input[type="submit"] {
+        padding: 10px 24px;
+        background: linear-gradient(135deg, #1ea83c, #16832f);
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        height: 100%;
+        min-height: 50px;
+      }
+
+      table input[type="submit"]:hover {
+        box-shadow: 0 4px 12px rgba(30, 168, 60, 0.4);
+      }
+
+      .result {
+        margin: 30px auto;
+        text-align: center;
+        max-width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
+      .result span {
+        margin-right: 15px;
+      }
+
+      .result button {
+        padding: 4px;
+        background: none;
+        margin: 3px;
+        border: 2px solid #1ea83c;
+        border-radius: 4px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+
+      .result .active {
+        background: #1ea83c;
+        color: #fff;
+      }
+
+      .result .booked {
+        background: #e5e5e5;
+        border: 2px solid #e5e5e5;
+        color: #fff;
+        cursor: not-allowed;
+      }
+
+      .bottom {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px 2px;
+        min-height: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: #fff;
+        display: none;
+      }
+
+      #payment,
+      #book {
+        /* display: none; */
+        height: fit-content;
+        padding: 10px 65px;
+        border: none;
+        background-color: #eb4e62;
+        color: white;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 8px;
+        cursor: pointer;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        font-size: 14px;
+      }
+
+      .seat-section {
+        max-width: 500px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #fff;
+        margin-bottom: 150px;
+      }
+
+      .avail-seat {
+        border: 2px solid #1ea83c;
+        padding: 0px 8px;
+        margin-right: 5px;
+        font-size: 12px;
+      }
+      .select-seat {
+        border: 2px solid #1ea83c;
+        background: #1ea83c;
+        padding: 0px 8px;
+        margin-right: 5px;
+        font-size: 12px;
+      }
+      .sold-seat {
+        background: #e5e5e5;
+        border: 2px solid #e5e5e5;
+        padding: 0px 8px;
+        margin-right: 5px;
+        font-size: 12px;
+      }
+
+      #ticket {
+        position: fixed;
+        top: 50px;
+        right: 50px;
+        background: none;
+        border: 1px solid rgb(235, 78, 98);
+        padding: 8px 16px;
+        border-radius: 4px;
+        line-height: 16px;
+        letter-spacing: 0.2px;
+        color: rgb(235, 78, 98);
+        cursor: pointer;
+      }
+    </style>
+
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <input type="text" id="rows" placeholder="Row" />
+        </td>
+        <td rowspan="2">
+          <input type="submit" id="submit" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" id="cols" placeholder="Column" />
+        </td>
+      </tr>
+    </table>
+    <a href="tickets.html">
+      <button id="ticket">Tickets</button>
+    </a>
+    <div class="result"></div>
+    <div class="seat-section">
+      <div class="available">
+        <span class="avail-seat"></span>
+        <span>Available</span>
+      </div>
+      <div class="selected">
+        <span class="select-seat"></span>
+        <span>Selected</span>
+      </div>
+      <div class="sold">
+        <span class="sold-seat"></span>
+        <span>Sold</span>
+      </div>
+    </div>
+    <div class="bottom">
+      <button id="payment"></button>
+      <button id="book">Book Now</button>
+    </div>
+    <script src="/script.js"></script>
+    <script></script>
+  </body>
+</html>
